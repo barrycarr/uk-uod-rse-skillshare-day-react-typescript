@@ -1,0 +1,19 @@
+div.to-do-item {
+  margin: 10px;
+  color: rgb(96, 3, 245);
+  text-align: left;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+span.to-do-item-text {
+  font-size: inherit;
+  margin: 10px 20px 0 0;
+}
+
+span.to-do-item-text-completed {
+  font-size: inherit;
+  margin: 10px 20px 0 0;
+  text-decoration: line-through;
+  color: rgb(122, 121, 124);
+}

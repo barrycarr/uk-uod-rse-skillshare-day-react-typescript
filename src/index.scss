@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input[type=text] {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+button[type=submit] {
+  width: 15%;
+  height: 40px;
+  font-size: inherit;
+}
